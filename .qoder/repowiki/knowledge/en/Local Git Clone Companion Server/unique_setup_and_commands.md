@@ -1,0 +1,3 @@
+- Run `bash setup.sh` to initialize the default config, install the launchd service, and start the server.
+- Manual control via `launchctl load/unload ~/Library/LaunchAgents/com.git-magager.host.plist`.
+- Logs are directed to ~/.git-magager.log and ~/.git-magager-error.log.

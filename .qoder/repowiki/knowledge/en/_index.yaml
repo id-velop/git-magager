@@ -1,0 +1,35 @@
+# 知识卡导出索引文件
+schema_version: 1
+locale: en-US
+branch: main
+exported_at: "2026-06-05T10:56:26Z"
+modules:
+    "":
+        dir_name: Git Magager Platform
+        title: Git Magager Platform
+        scope:
+            - README.md
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    chrome_extension:
+        dir_name: Git Magager Chrome Extension
+        title: Git Magager Chrome Extension
+        scope:
+            - chrome-extension/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: native_host
+    native_host:
+        dir_name: Local Git Clone Companion Server
+        title: Local Git Clone Companion Server
+        scope:
+            - native-host/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: chrome_extension

@@ -1,0 +1,1 @@
+A Manifest V3 extension that enables one-click Git cloning from GitHub and GitLab by delegating operations to a local backend server.

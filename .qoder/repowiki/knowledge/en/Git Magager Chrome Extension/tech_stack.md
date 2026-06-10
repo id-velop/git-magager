@@ -1,0 +1,1 @@
+Chrome Extensions Manifest V3 API, utilizing Service Workers for background logic and Content Scripts for DOM manipulation.

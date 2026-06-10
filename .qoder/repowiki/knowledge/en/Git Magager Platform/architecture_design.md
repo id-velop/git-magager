@@ -1,0 +1,3 @@
+- The Chrome extension (Manifest V3) acts as the frontend trigger, capturing repository URLs from GitHub/GitLab.
+- The native host server provides a localhost HTTP API that executes Git clone operations and manages local configuration.
+- Communication is delegated from the extension to the local backend, establishing a client-server model for secure local file system access.

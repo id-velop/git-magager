@@ -1,0 +1,3 @@
+- Asynchronous message handling in the background service worker returns `true` to keep the message channel open for `sendResponse`.
+- Platform detection logic in content and popup scripts uses hostname matching to distinguish between GitHub and GitLab environments.
+- UI state management in both popup and content scripts employs temporary CSS classes (e.g., 'gm-cloning', 'success') and timeouts to provide visual feedback during asynchronous operations.

@@ -1,0 +1,1 @@
+Orchestrates a browser extension and local backend to enable seamless Git repository cloning from web interfaces.

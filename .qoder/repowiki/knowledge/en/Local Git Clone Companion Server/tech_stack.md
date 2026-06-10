@@ -1,0 +1,1 @@
+Uses macOS launchd for service persistence via a generated .plist in ~/Library/LaunchAgents (setup.sh).

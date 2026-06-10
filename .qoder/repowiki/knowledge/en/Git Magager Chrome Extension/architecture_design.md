@@ -1,0 +1,4 @@
+- Entry point: `manifest.json` defines a Manifest V3 architecture with a service worker (`background.js`), content scripts (`content.js`), and a popup/options UI.
+- Communication: The extension uses `chrome.runtime.sendMessage` to relay commands (CHECK_SERVER, CLONE, GET/SET_CONFIG) from the popup and options pages to the background service worker.
+- Backend Integration: `background.js` acts as a proxy, forwarding clone and configuration requests via HTTP to a local server at `http://127.0.0.1:9456`.
+- Page Interaction: `content.js` injects platform-specific clone buttons into GitHub and GitLab DOMs, detecting repository URLs through multiple fallback strategies and triggering clones via direct fetch calls to the local server.

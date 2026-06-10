@@ -1,0 +1,1 @@
+Provides a localhost HTTP API for a Chrome extension to clone Git repositories and manage local configuration on macOS.

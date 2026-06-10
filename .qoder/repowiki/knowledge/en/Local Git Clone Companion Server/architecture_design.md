@@ -1,0 +1,5 @@
+- Single-file Node.js HTTP server (server.js) acting as the module entry point, listening on 127.0.0.1:9456.
+- Exposes REST-like endpoints (/health, /config, /clone) with CORS restricted to chrome-extension origins.
+- Integrates with macOS system tools via child_process.exec, supporting Terminal, iTerm, and Warp for interactive cloning.
+- Persists user configuration in ~/.git-magager.json, loaded and merged at runtime.
+- Deployment relies on a bash setup script (setup.sh) that registers the server as a macOS launchd agent for auto-start.
